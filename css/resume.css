@@ -1,0 +1,18 @@
+.Address-tag {
+  margin-top: 10em;
+}
+
+.profile-picture img {
+  border-radius: 12px;
+  box-shadow: 4px 4px 20px rgba(59, 59, 60, 0.15);
+}
+
+.Proficiencies {
+  padding-left: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Proficiencies {
+    margin-top: 1em;
+  }
+}

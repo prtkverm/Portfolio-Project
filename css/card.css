@@ -1,0 +1,21 @@
+.cards {
+  margin: 0px 0px;
+}
+.card {
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  height: 600px;
+  background: linear-gradient(90deg, #786cff 3.37%, #3083ff 67.46%);
+  border-radius: 2em;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    max-height: 480px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1.5em;
+  }
+}

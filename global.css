@@ -1,0 +1,47 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #111111;
+  margin: 0px 0px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Heading-1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.Heading-2 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.Body-Light {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.Sub-Text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Demoted {
+  opacity: 0.5;
+}
+
+.Promoted {
+  background: linear-gradient(to right, #786cff 0%, #3083ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.align-Middle {
+  text-align: center;
+}
+
+.align-Right {
+  text-align: right;
+}
