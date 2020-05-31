@@ -1,27 +1,39 @@
-.cards {
-}
-.card {
-  margin: 0px 0px;
+@media only screen and (min-width: 600px) {
+  .card-new {
+    background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+    border-radius: 1em;
+    margin: 0px 0px;
+    padding: 6em 0em;
+  }
 
-  background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
-  border-radius: 12px;
-}
+  .card-img {
+    text-align: left;
+  }
 
-.card p {
-  padding: 0px 12px;
+  .card-text {
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .card {
-    border-radius: 1.5em;
+  .card-new {
+    background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+    border-radius: 1em;
+    margin: 0px 0px;
   }
 
-  .card-text-container {
+  .card-img {
+    height: 390px;
+    text-align: center;
+  }
+
+  .card-text {
     height: 196px;
-    padding-bottom: 12px;
+    text-align: center;
+    padding-top: 1.5em;
   }
 
-  .card-image {
-    height: 403px;
+  .card-project-description {
+    display: none;
   }
 }
