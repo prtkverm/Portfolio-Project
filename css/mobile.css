@@ -96,13 +96,6 @@ MOBILE DEVICES - SECTION END
     width: 190px;
     height: 67px;
   }
-
-  .card {
-    max-height: 180px;
-    padding: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
 }
 
 @media only screen and (min-width: 1200px) {

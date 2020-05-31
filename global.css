@@ -32,6 +32,10 @@ body {
   opacity: 0.5;
 }
 
+.Black {
+  color: #111;
+}
+
 .Promoted {
   background: linear-gradient(to right, #786cff 0%, #3083ff 100%);
   -webkit-background-clip: text;
